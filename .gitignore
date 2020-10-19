@@ -150,4 +150,4 @@ config.py
 *.csv 
 *.pickle
 
-*/.idea
+/.idea/*
