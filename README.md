@@ -32,7 +32,7 @@ We performed a two sample t test to test the hypothesis that we see in the graph
 
 Here we analyzed the lexical diversity of comments in the two subreddits -- for us this meant (# unique words) / (# total words). The chart below does not show a clear difference, but after running a two sample t test, we got a p value (.0002) that did indeed show significance. Spoiler, later on in the modeling, adding in lexical diversity as a feature added to model performance.
 
-![Image](Pics/Lexical_Div_Violinplot_Vertical.png?raw=true)
+![Image](Pics/Lexical_Div_Violinplot.png?raw=true)
 
 ### Word Clouds
 
