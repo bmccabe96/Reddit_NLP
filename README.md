@@ -76,7 +76,7 @@ Of our custom features, "profanity" and "lexical diversity" provided the most im
 
 **The following wordcloud is off the feature importance from our best model -- includes most important words, as well as our custom features, indicated with a leading X** 
 
-![Image](Pics/top_words_wordcloud.png?raw=true)
+![Image](Pics/top_100.png?raw=true)
 
 
 ### Misclassification Analysis
