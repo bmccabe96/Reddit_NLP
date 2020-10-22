@@ -33,10 +33,10 @@ We performed a two sample t test to test the hypothesis that we see in the graph
 
 For interest alone, we wanted to generate word clouds of the most frequent words. Our model uses TF IDF vectorization, though, so it is important to note that these "most frequent" words do not have a large impact on our models. 
 #### Left Leaning
-![Image](Pics/left_leaning.png?raw=true)
+![Image](Pics/left_wc_final.png?raw=true)
 
 #### Right Leaning
-![Image](Pics/right_leaning.png?raw=true)
+![Image](Pics/right_wc_final.png?raw=true)
 
 
 ## Modeling
