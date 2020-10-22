@@ -24,10 +24,15 @@ The following chart shows the class imabalance of our dataset after preprocessin
 
 Here we can see that right leaning subreddits use slightly more profanity than left leaning subreddits, in terms of both count of total profane words in a comment, as well as number of profane words relative to the size of the comment (percentage).
 
-We performed a two sample t test to test the hypothesis that we see in the graphs and found the difference to be significant. Additionally, we found an increase in model performance when we added this as a feature to our model (percent profane).
+We performed a two sample t test to test the hypothesis that we see in the graphs and found the difference to be significant (p value 2.007e-139). Additionally, we found an increase in model performance when we added this as a feature to our model (percent profane).
 
 ![Image](Pics/Profanity_Violinplot.png?raw=true) 
-![Image](Pics/Profanity.png?raw=true)
+
+### Lexical Diversity
+
+Here we analyzed the lexical diversity of comments in the two subreddits -- for us this meant (# unique words) / (# total words). The chart below does not show a clear difference, but after running a two sample t test, we got a p value (.0002) that did indeed show significance. Spoiler, later on in the modeling, adding in lexical diversity as a feature added to model performance.
+
+![Image](Pics/Lexical_Div_Violinplot_Vertical.png?raw=true)
 
 ### Word Clouds
 
