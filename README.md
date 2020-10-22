@@ -82,6 +82,6 @@ TBD
 ## Next Steps
 
 * Expand to new subreddits
-* Expand from a simple binary classification. See if we can capture "centrists", "libertarians", etc.
+* Expand from a simple binary classification. The elbow plot from our KMeans analysis points us this way. See if we can capture "centrists", "libertarians", etc.
 * Test on a user level -- instead of classifying a comment, aggregate all comments for an active user
 * Get hired by an authoritarian regime and squelch all hopes of free speech
