@@ -81,8 +81,15 @@ Of our custom features, "profanity" and "lexical diversity" provided the most im
 
 ### Misclassification Analysis
 
-TBD
-
+Reading through some of the misclassified comments, we noticed the following:
+* This is a comment from a left-leaning sub that was guessed incorrectly. Our model likely associates affinity for guns with right-leaning subreddits, when in reality there are certainly comments in left-leaning subreddits that are okay with guns. 
+```
+In my 8th grade class there was a class you could choose to take and part of it they taught us about guns. At the end of the firearm segment we got to go to a range and shoot .22s It was a very fun class.
+```
+* The following comment comes from a right-leaning subreddit and proves that not all right-leaning subreddit comments necessarily indicate a preference towards a republican potus. Our model guessed 'Left', due to the nature that this comment represents disatisfaction for Trump...and, it does. However, this comment actually comes from a right-leaning sub. This means that simply labeling all comments from a right or left leaning sub will always have some noise. Thankfully, from the results of our models, the noise is small enough that, for the most part, our accuracy is still good.
+```
+I live in a complete red zone. I'm the only one I know that doesn't worship Trump. It can be a bit much to process at times....so I feel your pain.
+```
 
 ## Next Steps
 
