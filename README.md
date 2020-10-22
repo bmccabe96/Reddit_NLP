@@ -74,6 +74,11 @@ We believe TF IDF performed better than word embeddings because the two ends of 
 
 Of our custom features, "profanity" and "lexical diversity" provided the most importance in our random forest model. This insinuates that, in some way, there is some detectable difference regarding the use of profanity and the complexity of comments in these different subreddits. See EDA notebook for implementation. 
 
+**The following wordcloud is off the feature importance from our best model -- includes most important words, as well as our custom features, indicated with a leading X** 
+
+![Image](Pics/top_100.png?raw=true)
+
+
 ### Misclassification Analysis
 
 TBD
