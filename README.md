@@ -66,7 +66,7 @@ Throughout the week, we grabbed data from our data pulling script every morning.
 
  * Random Forest Classification: This was the model we primarily used. It provided good scoring, is resistant to overfitting, handles outliers well, and allows us some insight into feature importance. We saw that our engineered features were important, and we also saw some of the words that were important in TFIDF vectorization, such as "fizzled" and "catalyst".
  * Support Vector Machine Classification: This can be good for NLP, but for our project and the size of our dataset, it took too long to run the model each time (and we wanted to run lots and lots of models). This was performing about as well as Random Forest, but took a much longer amount of time so we went with Random Forest.
- * MN Bayes: Decent results, but again not as good as RFC, so we didn't explore to much here.
+ * MN Bayes: Decent results, but again not as good as RFC, so we didn't explore too much here.
 
 
 
