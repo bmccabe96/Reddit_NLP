@@ -50,7 +50,7 @@ For interest alone, we wanted to generate word clouds of the most frequent words
 
 Our baseline model for comparison was a simple dummy classifier. As expected, running this on our preprocessed data results in 50% accuracy (common for binary classification problems).
 
-### Iteratibve Process and Improvement Through More Data
+### Iterative Process and Improvement Through More Data
 
 Throughout the week, we grabbed data from our data pulling script every morning. This resulted in better model performance every day, signifying the importance in more data for an NLP project such as this one.
 
